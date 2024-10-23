@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.1.0]
 
-## Added
+### Added
 
 - `/feed.rss` redirects to Rick Astley's "Never Gonna Give You Up"
 
