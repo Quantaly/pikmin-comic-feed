@@ -13,6 +13,7 @@
     "dev": "wrangler pages dev",
     "start": "wrangler pages dev",
     "cf-typegen": "wrangler types ./lib/configuration.d.ts",
+    "build": "echo no build script yet, or probably ever",
     "format": "prettier --write .",
     "check-format": "prettier --check .",
     "lint": "eslint",
