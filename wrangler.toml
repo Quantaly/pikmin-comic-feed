@@ -5,3 +5,6 @@ compatibility_date = "2024-10-18"
 
 [vars]
 FEED_ID = "urn:uuid:97c99e66-d0d0-4869-9983-7844c29ad6a8"
+
+[observability]
+enabled = true
