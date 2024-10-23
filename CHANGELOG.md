@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0]
+
 ## Added
 
 - `/feed.rss` redirects to Rick Astley's "Never Gonna Give You Up"
@@ -18,5 +20,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Atom feed of the Pikmin comic
 - Basic landing page
 
-[unreleased]: https://github.com/Quantaly/pikmin-comic-feed/compare/v1.0.0...HEAD
+[unreleased]: https://github.com/Quantaly/pikmin-comic-feed/compare/v1.1.0...HEAD
+[1.0.0]: https://github.com/Quantaly/pikmin-comic-feed/releases/tag/v1.1.0
 [1.0.0]: https://github.com/Quantaly/pikmin-comic-feed/releases/tag/v1.0.0
