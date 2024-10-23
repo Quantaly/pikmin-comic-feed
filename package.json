@@ -3,14 +3,13 @@
   "version": "1.0.0",
   "type": "module",
   "private": true,
-  "homepage": "https://github.com/Quantaly/pikmin-comic-feed",
+  "homepage": "https://pikmin-comic-feed.pages.dev/",
   "repository": {
     "type": "git",
     "url": "https://github.com/Quantaly/pikmin-comic-feed"
   },
   "scripts": {
     "prepare": "husky",
-    "deploy": "wrangler pages deploy",
     "dev": "wrangler pages dev",
     "start": "wrangler pages dev",
     "cf-typegen": "wrangler types ./lib/configuration.d.ts",
