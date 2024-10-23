@@ -1,0 +1,15 @@
+{
+  "extends": "@tsconfig/strictest",
+  "include": ["functions/**/*.ts", "lib/**/*.ts"],
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "preserve",
+    "types": ["@cloudflare/workers-types/2023-07-01"],
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@/*": ["./lib/*"]
+    }
+  }
+}

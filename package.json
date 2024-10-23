@@ -1,0 +1,39 @@
+{
+  "name": "pikmin-comic-feed",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "homepage": "https://github.com/Quantaly/pikmin-comic-feed",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Quantaly/pikmin-comic-feed"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "deploy": "wrangler pages deploy",
+    "dev": "wrangler pages dev",
+    "start": "wrangler pages dev",
+    "cf-typegen": "wrangler types ./lib/configuration.d.ts",
+    "format": "prettier --write .",
+    "check-format": "prettier --check .",
+    "lint": "eslint",
+    "types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241018.0",
+    "@tsconfig/strictest": "^2.0.5",
+    "eslint": "^9.13.0",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3",
+    "prettier-plugin-organize-imports": "^4.1.0",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.11.0",
+    "wrangler": "^3.82.0"
+  }
+}
