@@ -4,3 +4,4 @@
 /feed.xml /feed.atom 301
 
 /feed.rss https://www.youtube.com/watch?v=dQw4w9WgXcQ 303
+/rss.xml https://www.youtube.com/watch?v=dQw4w9WgXcQ 303
